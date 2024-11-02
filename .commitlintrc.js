@@ -41,14 +41,10 @@ module.exports = {
 			[
 				// Dependency-related changes
 				'deps',
-				// ESLint-related changes
-				'eslint',
-				// Prettier-related changes
-				'prettier',
-				// TypeScript-related changes
-				'typescript',
-				// Go-related changes
-				'golang',
+				// Config-related changes
+				'config',
+				// Websites-related changes
+				'web',
 			],
 		],
 		'scope-empty': [1, 'never'],
