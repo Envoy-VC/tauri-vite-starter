@@ -1,25 +1,25 @@
 {
-	"$schema": "https://json.schemastore.org/tsconfig",
-	"extends": "@vercel/style-guide/typescript/node20",
-	"compilerOptions": {
-		"allowJs": true,
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"strict": true,
-		"noUncheckedIndexedAccess": true,
-		"checkJs": true,
-		"lib": ["dom", "dom.iterable", "ES2022", "ES2023"],
-		"noEmit": true,
-		"module": "ESNext",
-		"moduleResolution": "Bundler",
-		"jsx": "preserve",
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@vercel/style-guide/typescript/node20",
+  "compilerOptions": {
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "checkJs": true,
+    "lib": ["dom", "dom.iterable", "ES2022", "ES2023"],
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "preserve",
 
-		/* Path Aliases */
-		"baseUrl": ".",
-		"paths": {
-			"~/*": ["./src/*"]
-		}
-	},
-	"include": ["eslint.config.js", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.js"],
-	"exclude": ["node_modules"]
+    /* Path Aliases */
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": ["eslint.config.js", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.js"],
+  "exclude": ["node_modules", "src-tauri"]
 }
